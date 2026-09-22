@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.smartglasses.ferry20.tests">
+ <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="32" />
+ <application android:label="Ferry20 verification" />
+ <instrumentation android:name="com.smartglasses.ferry20.FerryInstrumentation" android:targetPackage="com.smartglasses.ferry20" android:functionalTest="true" />
+</manifest>
